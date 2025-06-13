@@ -2,7 +2,7 @@
 
 A simple Puppeteer script to scrape the pinned and most recent posts from an Instagram account.
 
-```swift
+```cs
 // define credentials as environment variables in .env
 USER=<instagram username>
 PASS=<instagram password>
