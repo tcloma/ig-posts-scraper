@@ -31,7 +31,8 @@ async function run() {
 		posts.push(href)
 	}
 
-	fs.writeFileSync('data.json', JSON.stringify(posts))
+	// fs.writeFileSync('data.json', JSON.stringify(posts))
+	console.log(posts)
 	await browser.close()
 }
 

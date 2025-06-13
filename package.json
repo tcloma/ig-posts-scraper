@@ -1,7 +1,10 @@
 {
-  "name": "puppeteer",
+  "name": "ig-posts-scraper",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run ./index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
