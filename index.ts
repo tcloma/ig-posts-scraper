@@ -1,6 +1,6 @@
 import fs from 'fs'
 import puppeteer from 'puppeteer'
-import login from './login'
+import login from './utils/login'
 
 const user = process.env.USER as string
 const pass = process.env.PASS as string
